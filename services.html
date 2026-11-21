@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | Ayma Waseem Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="index.html">Ayma Waseem</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+<section class="container section-box">
+  <h2 class="section-title">My Services</h2>
+  <div class="table-responsive">
+    <table class="table table-theme table-bordered">
+      <caption>Services and starting prices</caption>
+      <thead><tr><th>Service</th><th>Description</th><th>Delivery</th><th>Price (PKR)</th></tr></thead>
+      <tbody>
+        <tr><td>Static Website</td><td>Multi-page HTML/CSS site</td><td>5 days</td><td>5,000</td></tr>
+        <tr><td>Responsive Redesign</td><td>Convert an old site to Bootstrap</td><td>7 days</td><td>8,000</td></tr>
+        <tr><td>Landing Page</td><td>Single attractive promotional page</td><td>3 days</td><td>3,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="container section-box">
+  <h2 class="section-title">Packages</h2>
+  <div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4"><div class="card h-100 hover-card text-center"><div class="card-header fw-bold">Basic</div><div class="card-body"><p>1 page, mobile friendly</p><button class="btn btn-theme" data-bs-toggle="modal" data-bs-target="#infoModal">Details</button></div></div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="card h-100 hover-card text-center"><div class="card-header fw-bold">Standard</div><div class="card-body"><p>4 pages with contact form</p><button class="btn btn-theme" data-bs-toggle="modal" data-bs-target="#infoModal">Details</button></div></div></div>
+    <div class="col-12 col-md-6 col-lg-4"><div class="card h-100 hover-card text-center"><div class="card-header fw-bold">Premium</div><div class="card-body"><p>Full site with animations</p><button class="btn btn-theme" data-bs-toggle="modal" data-bs-target="#infoModal">Details</button></div></div></div>
+  </div>
+</section>
+<!-- Bootstrap modal -->
+<div class="modal fade" id="infoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+    <div class="modal-header"><h5 class="modal-title">Package Details</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+    <div class="modal-body">All packages include responsive design, clean commented code and one round of revisions. Contact me for a custom quote.</div>
+    <div class="modal-footer"><a href="contact.html" class="btn btn-theme">Contact Me</a></div>
+  </div></div>
+</div>
+</main>
+<footer>
+  <p class="mb-1">&copy; 2026 Ayma Waseem | Reg No: 24179 | Iqra University</p>
+  <p class="mb-0">Course: Web Technology &mdash; Instructor: Atiqa Tanweer</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
